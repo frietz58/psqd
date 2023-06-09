@@ -1,0 +1,15 @@
+SEED = 1337
+TRAIN_EPS = 1500
+GAMMA = 0.99
+TAU = 0
+HARD_FREQ = 100
+BATCHSIZE = 64
+AGENT_REWARD_SCALE = 1
+LOSS_FN_STR = 'MSELoss'
+N_VALUE_PARTICLES = 400
+SQL_MODE = ImportanceSampling
+HIDDEN_LAYERS = [32, 32, 32]
+ACT_FUN_STR = 'tanh'
+LOAD_PRETRAINED_CP = '/home/finn/repos/psqd/runs/SQL_ImportanceSampling_PointNavEnv_TopReach_Constraints:[]_2023-06-22_17:13:36_tanh'
+LOAD_PRETRAINED_EP = 1500
+PRIORITY_CONSTRAINT = PriorityConstraint:Obstacle(priority_lvl=0, cp_dir=/home/finn/repos/psqd/runs/SQL_ImportanceSampling_PointNavEnv_Obstacle_Constraints:[]_2023-06-22_17:13:21_tanh, load_ep=1500)

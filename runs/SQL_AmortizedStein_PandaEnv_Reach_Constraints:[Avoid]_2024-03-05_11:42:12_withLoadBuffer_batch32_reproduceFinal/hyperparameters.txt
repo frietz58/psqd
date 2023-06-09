@@ -1,0 +1,25 @@
+SEED = 3
+TRAIN_EPS = 1000
+GAMMA = 0.99
+TAU = 0.001
+HARD_FREQ = 100000000
+BATCHSIZE = 32
+AGENT_REWARD_SCALE = 1
+LOSS_FN_STR = 'MSELoss'
+N_VALUE_PARTICLES = 100
+SQL_MODE = AmortizedStein
+HIDDEN_LAYERS = [256, 256]
+ACT_FUN_STR = 'relu'
+LOAD_PRETRAINED_CP = '../runs/SQL_AmortizedStein_PandaEnv_Reach_Constraints:[]_2024-03-05_11:05:37_100particles_tanh_reproduceFinal'
+LOAD_PRETRAINED_EP = 1500
+LOAD_BUFFER = '../runs/SQL_AmortizedStein_PandaEnv_Reach_Constraints:[]_2024-03-05_11:05:37_100particles_tanh_reproduceFinal/buffer.npz'
+LOAD_REWARD_INFO = ''
+PI_LR = 0.0001
+Q_LR = 0.001
+LR_EXPONENTIAL_DECAY = 1ZETA_DIM = -1
+PANDA_EPISODE_LENGTH = 400
+PANDA_OBS_NOISE = 0.0
+PANDA_RANDOM_INIT = True
+PANDA_TASK = PandaTasks.reach
+GRAD_CLIP = False
+PRIORITY_CONSTRAINT = PriorityConstraint:Avoid(priority_lvl=0, threshold=5, cp_dir=../runs/SQL_AmortizedStein_PandaEnv_Avoid_Constraints:[]_2024-03-05_11:05:43_32particles_tanh_reproduceFinal, load_ep=1500)
