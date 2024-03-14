@@ -1,0 +1,26 @@
+gym==0.15.7
+gym-notices==0.0.8
+gymnasium==0.27.1
+gymnasium-notices==0.0.1
+gymnasium-robotics==1.2.0
+matplotlib==3.6.2
+matplotlib-inline==0.1.6
+mujoco==2.3.2
+mujoco-py==2.1.2.14
+natsort==8.2.0
+numpy==1.23.4
+# install adeequate cuda version
+# nvidia-cublas-cu11==11.10.3.66
+# nvidia-cuda-nvrtc-cu11==11.7.99
+# nvidia-cuda-runtime-cu11==11.7.99
+# nvidia-cudnn-cu11==8.5.0.96
+stable-baselines3==1.6.2
+tensorboard==2.10.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow-estimator==2.10.0
+tensorflow-io-gcs-filesystem==0.27.0
+# install adequate version of torch, torchaudio and torchvision
+# torch==1.13.1+cu116
+# torchaudio==0.13.1+cu116
+# torchvision==0.14.1+cu116
